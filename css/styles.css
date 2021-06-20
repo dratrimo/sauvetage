@@ -1,0 +1,30 @@
+/* ***************************GENERAL************************** */
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ***************************HEADER**************************** */
+
+.entete{
+    display:flex;
+    justify-content: space-between;
+}
+.entete ul{
+    display: flex;
+}
+.entete ul li{
+    padding: 1em;
+    list-style-type: none;
+}
+.entete ul li a{
+    text-decoration: none;
+    color: #0065FC;
+}
+.title2ndPart{
+    font-weight: 300;
+    font-size: 0.7em;
+}
