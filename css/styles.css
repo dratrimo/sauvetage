@@ -28,3 +28,55 @@ body{
     font-weight: 300;
     font-size: 0.7em;
 }
+
+/* ***************************MAIN***************************** */
+
+/* .formulaire{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+   
+}
+.formulaire .search a{
+    color: #0065FC;
+    text-decoration: none;
+    width: 5em;
+    
+}
+.formText{
+    margin-bottom: 1em;
+}
+.search{
+    width: 3em;
+} */
+
+.formulaire{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    display: flex;
+    width: 20em;
+    height: 2.5em;
+}
+.icona .fas{
+    padding: 0.8em;
+}
+.formulaire input{
+    padding-top: 1.5em;
+    font-weight: bold;    
+    color: black;
+}
+.formulaire a{
+    padding: 0.65em;
+    width: 7em;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #0065FC;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.icona{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: #F2F2F2;
+}
