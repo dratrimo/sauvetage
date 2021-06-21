@@ -6,6 +6,10 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+h1, h2{
+font-size: 1.3rem;
+}
+
 
 /* ***************************HEADER**************************** */
 
@@ -123,16 +127,23 @@ body{
     display: flex;
 }
 .section1{
-    border: 1px solid red;
-
-flex: 2;
-height: 30rem;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    flex: 2;
+    height: 30rem;
+    border-radius: 5%;
 }
 .entre2{
     flex: 0.2;
 }
 .section2{
-
-border: 1px solid blue;
-flex: 1;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    flex: 1;
+    border-radius: 5%;
+}
+.marge{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid red;
 }
