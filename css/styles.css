@@ -96,7 +96,7 @@ body{
     color: black;
 }
 .buttonFilter{
-    border: 1px #F2F2F2 solid;
+    border: 2px #F2F2F2 solid;
     border-radius: 30px;
     /* padding: 1em; */
 }
@@ -115,4 +115,24 @@ body{
     padding: 0.65rem;
     line-height: 0.5rem;
     margin-right: 0.5rem;
+}
+
+/* ---------Hebergements------------- */
+
+#hebergements{
+    display: flex;
+}
+.section1{
+    border: 1px solid red;
+
+flex: 2;
+height: 30rem;
+}
+.entre2{
+    flex: 0.2;
+}
+.section2{
+
+border: 1px solid blue;
+flex: 1;
 }
