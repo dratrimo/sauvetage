@@ -134,7 +134,7 @@ font-size: 1.3rem;
     border-radius: 5%;
 }
 .entre2{
-    flex: 0.2;
+    flex: 0.06;
 }
 .section2{
     border: 1px solid #F2F2F2;
@@ -146,4 +146,12 @@ font-size: 1.3rem;
     width: 90%;
     margin: 0 auto;
     border: 1px solid red;
+}
+.groupeArticle{
+    display: flex; 
+    justify-content:space-between ;
+}
+.groupeArticle article img{
+    height: 120px;
+    width: auto;
 }
