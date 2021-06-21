@@ -31,27 +31,9 @@ body{
 
 /* ***************************MAIN***************************** */
 
-/* .formulaire{
-    display: flex;
-    border: 1px solid black;
-    border-radius: 15px;
-   
-}
-.formulaire .search a{
-    color: #0065FC;
-    text-decoration: none;
-    width: 5em;
-    
-}
-.formText{
-    margin-bottom: 1em;
-}
-.search{
-    width: 3em;
-} */
+    /* ---------Formulaire------------- */
 
 .formulaire{
-    /* border: 1px solid black; */
     border-radius: 15px;
     display: flex;
     width: 20em;
@@ -82,3 +64,48 @@ body{
     border-top-left-radius: 15px;
     background-color: #F2F2F2;
 }
+
+   /* ---------Filtres------------- */
+
+#filtres ul{
+    padding: 0;
+    width: 45rem;   
+}
+
+#filtres li{
+    font-weight: bold;
+    list-style-type: none;
+   padding-right: 0.7rem;
+   
+}
+#filtres ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    
+}
+#filtres ul li:first-child{
+    padding-top: 1rem;
+}
+#filtres ul li a{
+    text-decoration: none;
+    color: black;
+}
+.buttonFilter{
+    border: 1px #F2F2F2 solid;
+    border-radius: 30px;
+    /* padding: 1em; */
+}
+.buttonFilter .fas{
+    color: #0065FC;
+    padding-right: 1rem;
+    background-color: #F2F2F2;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-right: 0.7rem;
+
+}
+/* #filtres ul li{
+    padding-top: 1rem;
+} */
